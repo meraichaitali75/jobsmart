@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" href="./assets/images/adminlogo.png" type="image/x-icon" />
+
+    <title>Jobsmart - Week</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Core and vandor -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Core css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/theme1.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- calendar css -->
+    <link href='assets/css/calendar/core/main.css' rel='stylesheet' />
+    <link href='assets/css/calendar/time-grid/main.css' rel='stylesheet' />
+</head>
+
+<body class="font-montserrat sidebar_dark ">
+    <!-- Page Loader -->
+    <div class="loading">
+        <div class="gooey">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div id="main_content" class="main-wrapper">
+
+        <div id="header_top" class="header_top">
+            <div class="container">
+                <div class="hleft">
+                    <a href="#" class="header-brand">
+                        <img src="./assets/images/adminlogo.png" alt="Brand Logo" data-toggle="tooltip"
+                            data-placement="right" title="User Menu" />
+                    </a>
+                    <div class="dropdown">
+                        <a href="index.html" class="nav-link icon xs-hide">
+                            <i class="fa fa-dashboard" data-toggle="tooltip" data-placement="right"
+                                title="Dashboard"></i></a>
+                        <a href="month.html" class="nav-link icon app_inbox xs-hide">
+                            <i class="fa fa-calendar" data-toggle="tooltip" data-placement="right"
+                                title="Calendar"></i></a>
+                        <a href="client.html" class="nav-link icon xs-hide">
+                            <i class="fa fa-id-card-o" data-toggle="tooltip" data-placement="right"
+                                title="Clients"></i></a>
+                        <a href="employee.html" class="nav-link icon xs-hide">
+                            <i class="fa fa-users" data-toggle="tooltip" data-placement="right" title="Employees"></i>
+                        </a>
+                        <a href="#" class="nav-link icon xs-hide">
+                            <i class="fa fa-briefcase" data-toggle="tooltip" data-placement="right"
+                                title="Work"></i></a>
+                        <a href="#" class="nav-link icon app_file xs-hide">
+                            <i class="fa fa-clock-o" data-toggle="tooltip" data-placement="right"
+                                title="Reports"></i></a>
+                        <a href="#" class="nav-link icon xs-hide">
+                            <i class="fa fa-line-chart" data-toggle="tooltip" data-placement="right"
+                                title="Time Sheet"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hright">
+                    <div class="dropdown">
+                        <!-- <a href="javascript:void(0)" class="nav-link icon settingbar"><i class="fa fa-gear fa-spin"
+                                data-toggle="tooltip" data-placement="right" title="Settings"></i></a> -->
+                        <a href="javascript:void(0)" class="nav-link icon menu_toggle"><i
+                                class="fa  fa-align-left"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="left-sidebar" class="sidebar ">
+            <a href="index.html">
+                <h4 class="brand-name">Jobsmart</h4>
+            </a>
+            <nav id="left-sidebar-nav" class="sidebar-nav">
+                <ul class="metismenu">
+                    <!-- <li class="g_heading">Project</li> -->
+                    <li><a href="index.html">Dashboard</span></a></li>
+                    <li class="active">
+                        <a href="javascript:void(0)" class="has-arrow arrow-c">Calender</a>
+                        <ul>
+                            <li><a href="month.html"><span class="fa fa-circle-thin sub-menu-icon"></span>
+                                    Month</a></li>
+                            <li><a href="week.html"><span class="fa fa-circle-thin sub-menu-icon icon-active"></span>
+                                    Week</a></li>
+                            <li><a href="grid.html"><span class="fa fa-circle-thin sub-menu-icon"></span>
+                                    Grid</a></li>
+                            <li><a href="list.html"><span class="fa fa-circle-thin sub-menu-icon"></span> List</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="has-arrow arrow-c">Clients</a>
+                        <ul>
+                            <li><a href="client.html"><span class="fa fa-circle-thin sub-menu-icon"></span> People</a>
+                            </li>
+                            <li><a href="property.html"><span class="fa fa-circle-thin sub-menu-icon"></span>
+                                    Properties</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="employee.html">Employees</span></a></li>
+                    <li>
+                        <a href="javascript:void(0)" class="has-arrow arrow-c">Work</a>
+                        <ul>
+                            <li><a href="overview.html"><span class="fa fa-circle-thin sub-menu-icon"></span>
+                                    Overview</a></li>
+                            <li><a href="request.html"><span class="fa fa-circle-thin sub-menu-icon"></span> Request</a>
+                            </li>
+                            <li><a href="quote.html"><span class="fa fa-circle-thin sub-menu-icon"></span> Quotes</a>
+                            </li>
+                            <li><a href="job.html"><span class="fa fa-circle-thin sub-menu-icon"></span> Jobs</a></li>
+                            <li><a href="#"><span class="fa fa-circle-thin sub-menu-icon"></span> Invoices</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">Time Sheet</a></li>
+
+                    <!-- <li class="g_heading">Support</li>
+                <li><a href="javascript:void(0)"><i class="fa fa-support"></i><span>Need Help?</span></a></li>
+                <li><a href="javascript:void(0)"><i class="fa fa-tag"></i><span>ContactUs</span></a></li> -->
+                </ul>
+            </nav>
+        </div>
+
+        <div class="page">
+            <header id="page_top" class="top_dark">
+                <div class="container-fluid px-4">
+                    <div class="row no-gutters page-header">
+                        <div class="left">
+                            <a href="javascript:void(0)" class="icon menu_toggle mr-3"><i
+                                    class="fa  fa-align-left"></i></a>
+                            <h1 class="page-sub-title">Zestbrains</h1>
+                            <span class="mx-2">|</span>
+                            <h1 class="page-title">Calendar</h1>
+                        </div>
+                        <div class="right">
+                            <div class="input-icon xs-hide mr-4">
+                                <input type="text" class="form-control" placeholder="Search for...">
+                                <span class="input-icon-addon"><i class="fa fa-search"></i></span>
+                            </div>
+                            <div class="notification d-flex">
+                                <div class="dropdown d-flex">
+                                    <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon"
+                                        data-toggle="dropdown"><i class="fa fa-bell-o"></i></a>
+                                </div>
+                                <div class="dropdown d-flex">
+                                    <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon mx-3"
+                                        data-toggle="dropdown"><i class="fa fa-question"></i></a>
+                                    <div class="dropdown-menu custom-dropdown dropdown-menu-right dropdown-menu-arrow">
+                                        <div class="user-profile-row">
+                                            <h6 class="dropdown-title">Support</h6>
+                                        </div>
+                                        <a class="dropdown-item" href="#">Help Center</a>
+                                        <!-- <a class="dropdown-item" href="#">Videos</a> -->
+                                        <a class="dropdown-item" href="#">Term of Service</a>
+                                        <!-- <a class="dropdown-item" href="#">Support Access</a> -->
+                                    </div>
+                                </div>
+
+                                <div class="dropdown d-flex">
+                                    <a class="nav-link icon pr-0 d-none d-md-flex btn btn-default btn-icon"
+                                        data-toggle="dropdown"><i class="fa fa-cog"></i></a>
+                                    <div class="dropdown-menu custom-dropdown dropdown-menu-right dropdown-menu-arrow">
+                                        <div class="user-profile-row">
+                                            <img src="./assets/images/user.png" alt="">
+                                            <div class="right-block">
+                                                <h6>Chaitali</h6>
+                                                <small>abc@gmail.com...</small>
+                                            </div>
+                                        </div>
+                                        <a class="dropdown-item" href="#">Setting</a>
+                                        <a class="dropdown-item" href="#">Account and Biling</a>
+                                        <a class="dropdown-item" href="#">Manage Team</a>
+                                        <!-- <a class="dropdown-item" href="#">App Marketplace</a> -->
+                                        <!-- <a class="dropdown-item" href="#">Refer a Friend</a> -->
+                                        <a class="dropdown-item" href="#">Product Updates</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="">Log Out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="calendar-wrapper content-body">
+                <div class="days-trail-row">
+                    <h6>You have x days left in trial</h6>
+                </div>
+                <div class="container-fluid px-4">
+                    <div class="row no-gutters">
+                        <h1 class="font-bold">CALENDAR</h1>
+                        <div id="weekCalendar"></div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <h5>Copyright © 2020 <a href="index.html">Jobsmart</a>. All rights reserved.</h5>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+    <!-- jquery js -->
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <!-- menu theme js -->
+    <script src="assets/bundles/lib.vendor.bundle.js"></script>
+    <script src="assets/js/core.js"></script>
+    <!-- custom Js -->
+    <script src="./assets/js/page/main.js"></script>
+    <!-- loader Js -->
+    <script src="assets/js/page/loader.js"></script>
+    
+    <!-- calendar js -->
+    <script src='assets/js/calendar/core/main.js'></script>
+    <script src='assets/js/calendar/daygrid/main.js'></script>
+    <script src='assets/js/calendar/timegrid/main.js'></script>
+    <script src='assets/js/calendar/timegrid/week.js'></script>
+</body>
+
+</html>
